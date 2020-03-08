@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-repeat: repeat;
+    background-image: url('../images/geometric-leaves/geometric-leaves.png');
+}
+
+.content {
+    min-height: calc(100vh - 72px);
+}
+
+.jumbotron {
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+hr {
+    border: 1px solid #cccccc;
+}
+h1 {
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin: 0px ;
+    color: #ffffff;
+    font-weight: 900; 
+}
+h2 {font-weight: bold;
+    color: #4aaaa5;
+    margin: 15px;
+}
+.btn {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+footer {
+    text-align: center;
+    background-color: #666666;
+    color: #ffffff;
+    padding: 20px 0px;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+}
+/* portfolio */
+.thumbnail {
+    margin: 50px;
+    position: relative;
+}
+.caption {
+    position: relative;
+    background-color: #4aaaa5;
+}
+p {margin: 0px;
+}
+.img-width {
+    width: 100%;
+}
